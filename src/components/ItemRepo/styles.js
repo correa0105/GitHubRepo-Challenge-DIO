@@ -2,25 +2,30 @@ import styled from "styled-components";
 
 export const ItemContainer = styled.div`
     width: 80%;
-
+    
     h3 {
-        font-size: 32px;
+        font-size: 3.5rem;
         color: #FAFAFA;
     }
 
     p {
-        font-size:16px;
+        font-size: 1.9rem;
         color: #FAFAFA60;
-        margin-bottom:20px;
+        margin-bottom: 1.6rem;
+    }
+
+    a.repositorio {
+        font-size: 1.6rem;
+        color: #FFFFFF;
     }
 
     a.remover {
+        font-size: 1.6rem;
         color: #FF0000;
-        margin-top:20px;
     }
 
     hr {
         color: #FAFAFA60;
-        margin: 20px 0;
+        margin: 2rem 0;
     }
 `
